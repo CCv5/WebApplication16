@@ -1,0 +1,36 @@
+<Root>
+	<Node Name="amino acid">
+		<Node>alanine</Node>
+		<Node>arginine</Node>
+		<Node>asparagine</Node>
+		<Node>aspartic acid</Node>
+		<Node>cysteine</Node>
+		<Node>glutamic acid</Node>
+		<Node>glutamine</Node>
+		<Node>glycine</Node>
+		<Node>histidine</Node>
+		<Node>isoleucine</Node>
+		<Node>leucine</Node>
+		<Node>lysine</Node>
+		<Node>methionine</Node>
+		<Node>phenylalanine</Node>
+		<Node>proline</Node>
+	</Node>
+  <Node Name="amino acid">
+    <Node>alanine</Node>
+    <Node>arginine</Node>
+    <Node>asparagine</Node>
+    <Node>aspartic acid</Node>
+    <Node>cysteine</Node>
+    <Node>glutamic acid</Node>
+    <Node>glutamine</Node>
+    <Node>glycine</Node>
+    <Node>histidine</Node>
+    <Node>isoleucine</Node>
+    <Node>leucine</Node>
+    <Node>lysine</Node>
+    <Node>methionine</Node>
+    <Node>phenylalanine</Node>
+    <Node>proline</Node>
+  </Node>
+</Root>

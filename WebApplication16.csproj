@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CAFAFD8-1972-4B3B-B931-7DBF8F3F7871}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication16</RootNamespace>
+    <AssemblyName>WebApplication16</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config\pic\alanine.jpg" />
+    <Content Include="config\pic\alanine.txt" />
+    <Content Include="config\pic\arginine.jpg" />
+    <Content Include="config\pic\arginine.txt" />
+    <Content Include="config\pic\asparagine.jpg" />
+    <Content Include="config\pic\asparagine.txt" />
+    <Content Include="config\pic\aspartic acid.jpg" />
+    <Content Include="config\pic\aspartic acid.txt" />
+    <Content Include="config\pic\cysteine.jpg" />
+    <Content Include="config\pic\cysteine.txt" />
+    <Content Include="config\pic\glutamic acid.jpg" />
+    <Content Include="config\pic\glutamic acid.txt" />
+    <Content Include="config\pic\glutamine.jpg" />
+    <Content Include="config\pic\glutamine.txt" />
+    <Content Include="config\pic\glycine.jpg" />
+    <Content Include="config\pic\glycine.txt" />
+    <Content Include="config\pic\histidine.jpg" />
+    <Content Include="config\pic\histidine.txt" />
+    <Content Include="config\pic\isoleucine.jpg" />
+    <Content Include="config\pic\isoleucine.txt" />
+    <Content Include="config\pic\leucine.jpg" />
+    <Content Include="config\pic\leucine.txt" />
+    <Content Include="config\pic\lysine.jpg" />
+    <Content Include="config\pic\lysine.txt" />
+    <Content Include="config\pic\methionine.jpg" />
+    <Content Include="config\pic\methionine.txt" />
+    <Content Include="config\pic\phenylalanine.jpg" />
+    <Content Include="config\pic\phenylalanine.txt" />
+    <Content Include="config\pic\proline.jpg" />
+    <Content Include="config\pic\proline.txt" />
+    <Content Include="config\pic\serine.jpg" />
+    <Content Include="config\pic\serine.txt" />
+    <Content Include="config\pic\threonine.jpg" />
+    <Content Include="config\pic\threonine.txt" />
+    <Content Include="config\pic\tryptophan.jpg" />
+    <Content Include="config\pic\tryptophan.txt" />
+    <Content Include="config\pic\tyrosine.jpg" />
+    <Content Include="config\pic\tyrosine.txt" />
+    <Content Include="config\pic\valine.jpg" />
+    <Content Include="config\pic\valine.txt" />
+    <Content Include="config\test.xml" />
+    <Content Include="css\div.css" />
+    <Content Include="css\easyUI\themes\default\easyui.css" />
+    <Content Include="css\easyUI\themes\default\images\accordion_arrows.png" />
+    <Content Include="css\easyUI\themes\default\images\blank.gif" />
+    <Content Include="css\easyUI\themes\default\images\calendar_arrows.png" />
+    <Content Include="css\easyUI\themes\default\images\combo_arrow.png" />
+    <Content Include="css\easyUI\themes\default\images\datagrid_icons.png" />
+    <Content Include="css\easyUI\themes\default\images\datebox_arrow.png" />
+    <Content Include="css\easyUI\themes\default\images\layout_arrows.png" />
+    <Content Include="css\easyUI\themes\default\images\linkbutton_bg.png" />
+    <Content Include="css\easyUI\themes\default\images\loading.gif" />
+    <Content Include="css\easyUI\themes\default\images\menu_arrows.png" />
+    <Content Include="css\easyUI\themes\default\images\messager_icons.png" />
+    <Content Include="css\easyUI\themes\default\images\pagination_icons.png" />
+    <Content Include="css\easyUI\themes\default\images\panel_tools.png" />
+    <Content Include="css\easyUI\themes\default\images\searchbox_button.png" />
+    <Content Include="css\easyUI\themes\default\images\slider_handle.png" />
+    <Content Include="css\easyUI\themes\default\images\spinner_arrows.png" />
+    <Content Include="css\easyUI\themes\default\images\tabs_icons.png" />
+    <Content Include="css\easyUI\themes\default\images\tree_icons.png" />
+    <Content Include="css\easyUI\themes\default\images\validatebox_warning.png" />
+    <Content Include="css\easyUI\themes\icon.css" />
+    <Content Include="css\easyUI\themes\icons\back.png" />
+    <Content Include="css\easyUI\themes\icons\blank.gif" />
+    <Content Include="css\easyUI\themes\icons\cancel.png" />
+    <Content Include="css\easyUI\themes\icons\clear.png" />
+    <Content Include="css\easyUI\themes\icons\cut.png" />
+    <Content Include="css\easyUI\themes\icons\edit_add.png" />
+    <Content Include="css\easyUI\themes\icons\edit_remove.png" />
+    <Content Include="css\easyUI\themes\icons\filesave.png" />
+    <Content Include="css\easyUI\themes\icons\filter.png" />
+    <Content Include="css\easyUI\themes\icons\help.png" />
+    <Content Include="css\easyUI\themes\icons\large_chart.png" />
+    <Content Include="css\easyUI\themes\icons\large_clipart.png" />
+    <Content Include="css\easyUI\themes\icons\large_picture.png" />
+    <Content Include="css\easyUI\themes\icons\large_shapes.png" />
+    <Content Include="css\easyUI\themes\icons\large_smartart.png" />
+    <Content Include="css\easyUI\themes\icons\lock.png" />
+    <Content Include="css\easyUI\themes\icons\man.png" />
+    <Content Include="css\easyUI\themes\icons\mini_add.png" />
+    <Content Include="css\easyUI\themes\icons\mini_edit.png" />
+    <Content Include="css\easyUI\themes\icons\mini_refresh.png" />
+    <Content Include="css\easyUI\themes\icons\more.png" />
+    <Content Include="css\easyUI\themes\icons\no.png" />
+    <Content Include="css\easyUI\themes\icons\ok.png" />
+    <Content Include="css\easyUI\themes\icons\pencil.png" />
+    <Content Include="css\easyUI\themes\icons\print.png" />
+    <Content Include="css\easyUI\themes\icons\redo.png" />
+    <Content Include="css\easyUI\themes\icons\reload.png" />
+    <Content Include="css\easyUI\themes\icons\search.png" />
+    <Content Include="css\easyUI\themes\icons\sum.png" />
+    <Content Include="css\easyUI\themes\icons\tip.png" />
+    <Content Include="css\easyUI\themes\icons\undo.png" />
+    <Content Include="js\jquery-2.2.3.min.js" />
+    <Content Include="js\jquery.easyui.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="treedata.ashx.cs">
+      <DependentUpon>treedata.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="treedata.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>21624</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:21624/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

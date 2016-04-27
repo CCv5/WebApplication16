@@ -1,0 +1,17 @@
+E:\project\WebApplication16\WebApplication16\bin\WebApplication16.dll.config
+E:\project\WebApplication16\WebApplication16\bin\WebApplication16.dll
+E:\project\WebApplication16\WebApplication16\bin\WebApplication16.pdb
+E:\project\WebApplication16\WebApplication16\obj\Debug\WebApplication16.csprojResolveAssemblyReference.cache
+E:\project\WebApplication16\WebApplication16\obj\Debug\WebApplication16.dll
+E:\project\WebApplication16\WebApplication16\obj\Debug\WebApplication16.pdb
+E:\Download\WebApplication16\WebApplication16\WebApplication16\bin\WebApplication16.dll.config
+E:\Download\WebApplication16\WebApplication16\WebApplication16\bin\WebApplication16.dll
+E:\Download\WebApplication16\WebApplication16\WebApplication16\bin\WebApplication16.pdb
+E:\Download\WebApplication16\WebApplication16\WebApplication16\obj\Debug\WebApplication16.csprojResolveAssemblyReference.cache
+E:\Download\WebApplication16\WebApplication16\WebApplication16\obj\Debug\WebApplication16.dll
+E:\Download\WebApplication16\WebApplication16\WebApplication16\obj\Debug\WebApplication16.pdb
+C:\Users\sakular\Desktop\WebApplication16\WebApplication16\bin\WebApplication16.dll.config
+C:\Users\sakular\Desktop\WebApplication16\WebApplication16\bin\WebApplication16.dll
+C:\Users\sakular\Desktop\WebApplication16\WebApplication16\bin\WebApplication16.pdb
+C:\Users\sakular\Desktop\WebApplication16\WebApplication16\obj\Debug\WebApplication16.dll
+C:\Users\sakular\Desktop\WebApplication16\WebApplication16\obj\Debug\WebApplication16.pdb
